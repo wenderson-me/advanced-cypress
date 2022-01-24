@@ -1,0 +1,103 @@
+{
+  "boards": [
+    {
+      "name": "List",
+      "user": 0,
+      "id": 35576691619,
+      "starred": false,
+      "created": "2022-01-24"
+    },
+    {
+      "name": "compras",
+      "user": 0,
+      "id": 71713860951,
+      "starred": false,
+      "created": "2022-01-24"
+    }
+  ],
+  "tasks": [
+    {
+      "boardId": 35576691619,
+      "description": "",
+      "completed": false,
+      "listId": 89848290900,
+      "title": "milk",
+      "id": 67290574702,
+      "created": "2022-01-24",
+      "deadline": "2022-01-27"
+    },
+    {
+      "boardId": 35576691619,
+      "description": "",
+      "completed": false,
+      "listId": 89848290900,
+      "title": "kkskkdk",
+      "id": 48798166644,
+      "created": "2022-01-24",
+      "deadline": "2022-01-27"
+    },
+    {
+      "boardId": 35576691619,
+      "description": "",
+      "completed": false,
+      "listId": 77248895608,
+      "title": "milk",
+      "id": 33389533218,
+      "created": "2022-01-24",
+      "deadline": "2022-01-27"
+    },
+    {
+      "boardId": 71713860951,
+      "description": "",
+      "completed": false,
+      "listId": 29754900703,
+      "title": "milk",
+      "id": 74792393049,
+      "created": "2022-01-24",
+      "deadline": "2022-01-27",
+      "order": 1
+    },
+    {
+      "boardId": 71713860951,
+      "description": "",
+      "completed": false,
+      "listId": 29754900703,
+      "title": "sugar",
+      "id": 56566652249,
+      "created": "2022-01-24",
+      "deadline": "2022-01-27",
+      "order": 0
+    },
+    {
+      "boardId": 71713860951,
+      "description": "",
+      "completed": false,
+      "listId": 29754900703,
+      "title": "chocolat",
+      "id": 66906800392,
+      "created": "2022-01-24",
+      "deadline": "2022-01-27"
+    }
+  ],
+  "users": [],
+  "lists": [
+    {
+      "boardId": 35576691619,
+      "title": "to buy",
+      "id": 89848290900,
+      "created": "2022-01-24"
+    },
+    {
+      "boardId": 35576691619,
+      "title": "done",
+      "id": 77248895608,
+      "created": "2022-01-24"
+    },
+    {
+      "boardId": 71713860951,
+      "title": "to buy",
+      "id": 29754900703,
+      "created": "2022-01-24"
+    }
+  ]
+}
