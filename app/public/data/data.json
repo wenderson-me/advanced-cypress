@@ -1,5 +1,20 @@
 {
-  "boards": [],
+  "boards": [
+    {
+      "name": "Test Boards",
+      "user": 0,
+      "id": 83163473778,
+      "starred": false,
+      "created": "2022-01-25"
+    },
+    {
+      "name": "request wait test",
+      "user": 0,
+      "id": 66415963933,
+      "starred": false,
+      "created": "2022-01-25"
+    }
+  ],
   "tasks": [],
   "users": [],
   "lists": []
