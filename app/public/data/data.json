@@ -1,60 +1,6 @@
 {
-  "boards": [
-    {
-      "name": "compras",
-      "user": 0,
-      "id": 71713860951,
-      "starred": false,
-      "created": "2022-01-24"
-    }
-  ],
-  "tasks": [
-    {
-      "boardId": 71713860951,
-      "description": "",
-      "completed": false,
-      "listId": 29754900703,
-      "title": "milk",
-      "id": 74792393049,
-      "created": "2022-01-24",
-      "deadline": "2022-01-27",
-      "order": 1
-    },
-    {
-      "boardId": 71713860951,
-      "description": "",
-      "completed": false,
-      "listId": 29754900703,
-      "title": "sugar",
-      "id": 56566652249,
-      "created": "2022-01-24",
-      "deadline": "2022-01-25",
-      "order": 0
-    },
-    {
-      "boardId": 71713860951,
-      "description": "",
-      "completed": false,
-      "listId": 29754900703,
-      "title": "chocolat",
-      "id": 66906800392,
-      "created": "2022-01-24",
-      "deadline": "2022-01-27"
-    }
-  ],
-  "users": [
-    {
-      "email": "wendy@example.com",
-      "password": "$2a$10$ERUjaLyjbDbuZQI6o/V4J.fVz/fPO9gpjZ6UVZXD5MwaIqE38USSm",
-      "id": 1
-    }
-  ],
-  "lists": [
-    {
-      "boardId": 71713860951,
-      "title": "to buy",
-      "id": 29754900703,
-      "created": "2022-01-24"
-    }
-  ]
+  "boards": [],
+  "tasks": [],
+  "users": [],
+  "lists": []
 }
