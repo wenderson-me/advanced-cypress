@@ -42,7 +42,13 @@
       "deadline": "2022-01-27"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "email": "wendy@example.com",
+      "password": "$2a$10$ERUjaLyjbDbuZQI6o/V4J.fVz/fPO9gpjZ6UVZXD5MwaIqE38USSm",
+      "id": 1
+    }
+  ],
   "lists": [
     {
       "boardId": 71713860951,
