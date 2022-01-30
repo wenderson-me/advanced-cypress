@@ -13,11 +13,13 @@
       "boardId": 21241490123,
       "description": "",
       "completed": false,
-      "listId": 86401927831,
+      "listId": 68398592610,
       "title": "task 1",
       "id": 73674810947,
       "created": "2022-01-30",
-      "deadline": "2022-02-02"
+      "deadline": "2022-02-02",
+      "order": 1,
+      "image": "/public/uploaded/73674810947_logo.jpg"
     },
     {
       "boardId": 21241490123,
@@ -27,17 +29,13 @@
       "title": "task 2",
       "id": 78734108452,
       "created": "2022-01-30",
-      "deadline": "2022-02-02"
+      "deadline": "2022-02-02",
+      "order": 0,
+      "image": "/public/uploaded/78734108452_logo.jpg"
     }
   ],
   "users": [],
   "lists": [
-    {
-      "boardId": 21241490123,
-      "title": "to do",
-      "id": 86401927831,
-      "created": "2022-01-30"
-    },
     {
       "boardId": 21241490123,
       "title": "done",

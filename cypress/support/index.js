@@ -1,4 +1,7 @@
 
+
+import '@applitools/eyes-cypress/commands'
+
 Cypress.Cookies.defaults({
   preserve: 'trello_token'
 })
