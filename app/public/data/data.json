@@ -1,46 +1,14 @@
 {
   "boards": [
     {
-      "name": "new board",
-      "user": 0,
-      "id": 21241490123,
+      "name": "board created with .task()",
+      "id": 1,
       "starred": false,
-      "created": "2022-01-30"
+      "user": 0
     }
   ],
-  "tasks": [
-    {
-      "boardId": 21241490123,
-      "description": "",
-      "completed": false,
-      "listId": 68398592610,
-      "title": "task 1",
-      "id": 73674810947,
-      "created": "2022-01-30",
-      "deadline": "2022-02-02",
-      "order": 1,
-      "image": "/public/uploaded/73674810947_logo.jpg"
-    },
-    {
-      "boardId": 21241490123,
-      "description": "",
-      "completed": false,
-      "listId": 68398592610,
-      "title": "task 2",
-      "id": 78734108452,
-      "created": "2022-01-30",
-      "deadline": "2022-02-02",
-      "order": 0,
-      "image": "/public/uploaded/78734108452_logo.jpg"
-    }
-  ],
+  "tasks": [],
   "users": [],
-  "lists": [
-    {
-      "boardId": 21241490123,
-      "title": "done",
-      "id": 68398592610,
-      "created": "2022-01-30"
-    }
-  ]
+  "lists": [],
+  "list": []
 }
