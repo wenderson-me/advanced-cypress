@@ -5,6 +5,13 @@
       "id": 1,
       "starred": false,
       "user": 0
+    },
+    {
+      "name": "{   \"name\": \"board created with .task()\",   \"id\": 1,   \"starred\": false,   \"user\": 0,   \"lists\": [],   \"tasks\": [] }",
+      "user": 0,
+      "id": 9430919221,
+      "starred": true,
+      "created": "2025-11-21"
     }
   ],
   "tasks": [],
