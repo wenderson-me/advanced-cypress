@@ -16,37 +16,17 @@
 // Import commands.js using ES2015 syntax:
 import "./commands";
 
-// Import Applitools Eyes for visual testing
-import "@applitools/eyes-cypress/commands";
-
-// Configure default cookie preservation
-// Note: Cypress.Cookies is deprecated in v12+, use cy.session() instead
-// Keeping for backward compatibility
-if (Cypress.Cookies) {
-  Cypress.Cookies.defaults({
-    preserve: "trello_token",
-  });
-}
-
-// Preserve cookies between tests (modern approach)
-beforeEach(() => {
-  // Preserve authentication cookies
-  Cypress.Cookies.preserveOnce("trello_token", "session_id", "auth_token");
-});
-
 // Global error handling
 Cypress.on("uncaught:exception", (err, runnable) => {
   // returning false here prevents Cypress from failing the test
-  // você pode adicionar lógica para ignorar certos erros
   console.log("Uncaught exception:", err.message);
   return false;
 });
 
-// Custom global configurations
-Cypress.config("defaultCommandTimeout", 10000);
-Cypress.config("requestTimeout", 10000);
-Cypress.config("responseTimeout", 10000);
-
-// Log environment info
-cy.log("Cypress version:", Cypress.version);
-cy.log("Base URL:", Cypress.config("baseUrl"));
+beforeEach(() => {
+  cy.session("preserve-auth", () => {}, {
+    validate() {
+    },
+    cacheAcrossSpecs: true,
+  });
+});

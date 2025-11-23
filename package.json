@@ -1,11 +1,11 @@
 {
   "name": "advanced-cypress",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:open": "./node_modules/.bin/cypress open",
-    "cy:run": "./node_modules/.bin/cypress run",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
     "start": "cd app && npm start",
     "postinstall": "cd app && npm install"
   },
@@ -15,11 +15,10 @@
     "course",
     "tau"
   ],
-  "author": "",
+  "author": "Wenderson Monteiro Silva",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.1.0",
-    "@applitools/eyes-cypress": "^3.23.7",
     "cypress": "^15.7.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-real-events": "^1.6.0"

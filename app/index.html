@@ -314,7 +314,7 @@
 
 <template id="navbar">
   <nav class="Nav" v-cloak>
-    <router-link tag="div" class="Nav_boards Nav_button" to="/" v-show="$route.path !== '/'" v-cloak>
+    <router-link tag="div" class="Nav_boards Nav_button" data-cy="home-link" to="/" v-show="$route.path !== '/'" v-cloak>
       My Boards
     </router-link>
     <img class="Nav_logo" src="./public/images/trello-logo.png">
