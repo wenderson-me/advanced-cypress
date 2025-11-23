@@ -40,7 +40,8 @@ Para executar os testes localmente na sua máquina, siga os passos abaixo.
 4.  **Abra o Cypress Test Runner:**
     Este comando irá abrir a interface interativa do Cypress, onde você pode ver e executar todos os testes.
     ```bash
-    npx cypress open
+    npm run start
+    npm run cy:open
     ```
 
 ---
